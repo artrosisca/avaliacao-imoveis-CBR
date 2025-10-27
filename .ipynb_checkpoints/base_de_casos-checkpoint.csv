@@ -1,0 +1,16 @@
+,id_caso,problema,solucao
+0,1,"{'metros_quadrados': 65, 'num_quartos': 2, 'num_banheiros': 1, 'vagas_garagem': 1, 'bairro': 'Centro'}",{'preco_vendido': 350000.0}
+1,2,"{'metros_quadrados': 80, 'num_quartos': 3, 'num_banheiros': 2, 'vagas_garagem': 1, 'bairro': 'Centro'}",{'preco_vendido': 480000.0}
+2,3,"{'metros_quadrados': 50, 'num_quartos': 2, 'num_banheiros': 1, 'vagas_garagem': 0, 'bairro': 'Uvaranas'}",{'preco_vendido': 210000.0}
+3,4,"{'metros_quadrados': 120, 'num_quartos': 3, 'num_banheiros': 2, 'vagas_garagem': 2, 'bairro': 'Jardim Carvalho'}",{'preco_vendido': 650000.0}
+4,5,"{'metros_quadrados': 45, 'num_quartos': 1, 'num_banheiros': 1, 'vagas_garagem': 1, 'bairro': 'Oficinas'}",{'preco_vendido': 190000.0}
+5,6,"{'metros_quadrados': 70, 'num_quartos': 3, 'num_banheiros': 1, 'vagas_garagem': 1, 'bairro': 'Uvaranas'}",{'preco_vendido': 280000.0}
+6,7,"{'metros_quadrados': 90, 'num_quartos': 3, 'num_banheiros': 2, 'vagas_garagem': 2, 'bairro': 'Centro'}",{'preco_vendido': 530000.0}
+7,8,"{'metros_quadrados': 100, 'num_quartos': 3, 'num_banheiros': 2, 'vagas_garagem': 2, 'bairro': 'Jardim Carvalho'}",{'preco_vendido': 580000.0}
+8,9,"{'metros_quadrados': 62, 'num_quartos': 2, 'num_banheiros': 1, 'vagas_garagem': 1, 'bairro': 'Oficinas'}",{'preco_vendido': 260000.0}
+9,10,"{'metros_quadrados': 55, 'num_quartos': 2, 'num_banheiros': 1, 'vagas_garagem': 1, 'bairro': 'Uvaranas'}",{'preco_vendido': 235000.0}
+10,11,"{'metros_quadrados': 75, 'num_quartos': 3, 'num_banheiros': 2, 'vagas_garagem': 1, 'bairro': 'Oficinas'}",{'preco_vendido': 330000.0}
+11,12,"{'metros_quadrados': 140, 'num_quartos': 4, 'num_banheiros': 3, 'vagas_garagem': 2, 'bairro': 'Jardim Carvalho'}",{'preco_vendido': 750000.0}
+12,13,"{'metros_quadrados': 48, 'num_quartos': 2, 'num_banheiros': 1, 'vagas_garagem': 0, 'bairro': 'Centro'}",{'preco_vendido': 290000.0}
+13,14,"{'metros_quadrados': 85, 'num_quartos': 3, 'num_banheiros': 2, 'vagas_garagem': 2, 'bairro': 'Uvaranas'}",{'preco_vendido': 340000.0}
+14,15,"{'metros_quadrados': 68, 'num_quartos': 2, 'num_banheiros': 2, 'vagas_garagem': 1, 'bairro': 'Oficinas'}",{'preco_vendido': 300000.0}

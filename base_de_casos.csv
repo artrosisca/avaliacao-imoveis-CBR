@@ -1,0 +1,16 @@
+id_caso,metros_quadrados,num_quartos,num_banheiros,vagas_garagem,bairro,mobiliado,preco_vendido
+1,65,2,1,1,Centro,True,350000.0
+2,80,3,2,1,Centro,False,480000.0
+3,50,2,1,0,Uvaranas,False,210000.0
+4,120,3,2,2,Jardim Carvalho,True,650000.0
+5,45,1,1,1,Oficinas,True,190000.0
+6,70,3,1,1,Uvaranas,False,280000.0
+7,90,3,2,2,Centro,True,530000.0
+8,100,3,2,2,Jardim Carvalho,False,580000.0
+9,62,2,1,1,Oficinas,False,260000.0
+10,55,2,1,1,Uvaranas,True,235000.0
+11,75,3,2,1,Oficinas,False,330000.0
+12,140,4,3,2,Jardim Carvalho,True,750000.0
+13,48,2,1,0,Centro,False,290000.0
+14,85,3,2,2,Uvaranas,True,340000.0
+15,68,2,2,1,Oficinas,True,300000.0

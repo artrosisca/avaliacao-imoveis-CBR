@@ -1,0 +1,212 @@
+[
+  {
+    "id_caso": 1,
+    "problema": {
+      "metros_quadrados": 65,
+      "num_quartos": 2,
+      "num_banheiros": 1,
+      "vagas_garagem": 1,
+      "bairro": "Centro",
+      "mobiliado": true
+    },
+    "solucao": {
+      "preco_vendido": 350000.00
+    }
+  },
+  {
+    "id_caso": 2,
+    "problema": {
+      "metros_quadrados": 80,
+      "num_quartos": 3,
+      "num_banheiros": 2,
+      "vagas_garagem": 1,
+      "bairro": "Centro",
+      "mobiliado": false
+    },
+    "solucao": {
+      "preco_vendido": 480000.00
+    }
+  },
+  {
+    "id_caso": 3,
+    "problema": {
+      "metros_quadrados": 50,
+      "num_quartos": 2,
+      "num_banheiros": 1,
+      "vagas_garagem": 0,
+      "bairro": "Uvaranas",
+      "mobiliado": false
+    },
+    "solucao": {
+      "preco_vendido": 210000.00
+    }
+  },
+  {
+    "id_caso": 4,
+    "problema": {
+      "metros_quadrados": 120,
+      "num_quartos": 3,
+      "num_banheiros": 2,
+      "vagas_garagem": 2,
+      "bairro": "Jardim Carvalho",
+      "mobiliado": true
+    },
+    "solucao": {
+      "preco_vendido": 650000.00
+    }
+  },
+  {
+    "id_caso": 5,
+    "problema": {
+      "metros_quadrados": 45,
+      "num_quartos": 1,
+      "num_banheiros": 1,
+      "vagas_garagem": 1,
+      "bairro": "Oficinas",
+      "mobiliado": true
+    },
+    "solucao": {
+      "preco_vendido": 190000.00
+    }
+  },
+  {
+    "id_caso": 6,
+    "problema": {
+      "metros_quadrados": 70,
+      "num_quartos": 3,
+      "num_banheiros": 1,
+      "vagas_garagem": 1,
+      "bairro": "Uvaranas",
+      "mobiliado": false
+    },
+    "solucao": {
+      "preco_vendido": 280000.00
+    }
+  },
+  {
+    "id_caso": 7,
+    "problema": {
+      "metros_quadrados": 90,
+      "num_quartos": 3,
+      "num_banheiros": 2,
+      "vagas_garagem": 2,
+      "bairro": "Centro",
+      "mobiliado": true
+    },
+    "solucao": {
+      "preco_vendido": 530000.00
+    }
+  },
+  {
+    "id_caso": 8,
+    "problema": {
+      "metros_quadrados": 100,
+      "num_quartos": 3,
+      "num_banheiros": 2,
+      "vagas_garagem": 2,
+      "bairro": "Jardim Carvalho",
+      "mobiliado": false
+    },
+    "solucao": {
+      "preco_vendido": 580000.00
+    }
+  },
+  {
+    "id_caso": 9,
+    "problema": {
+      "metros_quadrados": 62,
+      "num_quartos": 2,
+      "num_banheiros": 1,
+      "vagas_garagem": 1,
+      "bairro": "Oficinas",
+      "mobiliado": false
+    },
+    "solucao": {
+      "preco_vendido": 260000.00
+    }
+  },
+  {
+    "id_caso": 10,
+    "problema": {
+      "metros_quadrados": 55,
+      "num_quartos": 2,
+      "num_banheiros": 1,
+      "vagas_garagem": 1,
+      "bairro": "Uvaranas",
+      "mobiliado": true
+    },
+    "solucao": {
+      "preco_vendido": 235000.00
+    }
+  },
+  {
+    "id_caso": 11,
+    "problema": {
+      "metros_quadrados": 75,
+      "num_quartos": 3,
+      "num_banheiros": 2,
+      "vagas_garagem": 1,
+      "bairro": "Oficinas",
+      "mobiliado": false
+    },
+    "solucao": {
+      "preco_vendido": 330000.00
+    }
+  },
+  {
+    "id_caso": 12,
+    "problema": {
+      "metros_quadrados": 140,
+      "num_quartos": 4,
+      "num_banheiros": 3,
+      "vagas_garagem": 2,
+      "bairro": "Jardim Carvalho",
+      "mobiliado": true
+    },
+    "solucao": {
+      "preco_vendido": 750000.00
+    }
+  },
+  {
+    "id_caso": 13,
+    "problema": {
+      "metros_quadrados": 48,
+      "num_quartos": 2,
+      "num_banheiros": 1,
+      "vagas_garagem": 0,
+      "bairro": "Centro",
+      "mobiliado": false
+    },
+    "solucao": {
+      "preco_vendido": 290000.00
+    }
+  },
+  {
+    "id_caso": 14,
+    "problema": {
+      "metros_quadrados": 85,
+      "num_quartos": 3,
+      "num_banheiros": 2,
+      "vagas_garagem": 2,
+      "bairro": "Uvaranas",
+      "mobiliado": true
+    },
+    "solucao": {
+      "preco_vendido": 340000.00
+    }
+  },
+  {
+    "id_caso": 15,
+    "problema": {
+      "metros_quadrados": 68,
+      "num_quartos": 2,
+      "num_banheiros": 2,
+      "vagas_garagem": 1,
+      "bairro": "Oficinas",
+      "mobiliado": true
+    },
+    "solucao": {
+      "preco_vendido": 300000.00
+    }
+  }
+]
