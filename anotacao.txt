@@ -1,0 +1,74 @@
+certo, alguns pontos que devem ser alterados no meu trabalho:
+a logica de mobiliado nao esta funcionando direito, mas eu tive uma ideia para resolver isso: 
+	quando ele procura na base de dados ele identifica o caso mais proximo dele, eu quero que se caso ele tenha um valor em mobiliado diferente do que foi pedido (!=) ele faca o ajuste de quanto seria gasto na mobilia usando a diferenca de valores dos dois imoveis 
+	exemplo:
+		"Metros quadrados (ex: 70):  50
+		Número de quartos (ex: 3):  3
+		Número de banheiros (ex: 1):  2
+		Vagas de garagem (ex: 1):  1
+		Bairro ['Centro', 'Jardim Carvalho', 'Oficinas', 'Uvaranas']:  Jardim Carvalho
+		É mobiliado? (s/n):  s
+
+		--- ETAPA 1: RECUPERAÇÃO (Retrieve) ---
+		Caso mais similar encontrado (ID: 1) com 84.76% de similaridade.
+		  -> Solução Antiga: R$ 350,000.00
+
+			metros_quadrados	num_quartos	num_banheiros	vagas_garagem	bairro	mobiliado	preco_vendido	similaridade
+id_caso								
+1	65	2	1	1	Centro	True	350000.0	0.847632
+10	55	2	1	1	Uvaranas	True	235000.0	0.839211
+15	68	2	2	1	Oficinas	True	300000.0	0.833158
+
+		--- ETAPA 2: REUSO (Reuse/Adapt) ---
+INFO: Nenhum ajuste de mobília necessário.
+
+		--- ETAPA 3: REVISÃO (Revise) ---
+
+O sistema sugeriu um preço de R$ 269,230.77."
+
+"--- Por favor, insira os dados do novo imóvel ---
+Metros quadrados (ex: 70):  50
+Número de quartos (ex: 3):  3
+Número de banheiros (ex: 1):  2
+Vagas de garagem (ex: 1):  1
+Bairro ['Centro', 'Jardim Carvalho', 'Oficinas', 'Uvaranas']:  Jardim Carvalho
+É mobiliado? (s/n):  n
+
+--- ETAPA 1: RECUPERAÇÃO (Retrieve) ---
+Caso mais similar encontrado (ID: 2) com 87.53% de similaridade.
+  -> Solução Antiga: R$ 480,000.00
+metros_quadrados	num_quartos	num_banheiros	vagas_garagem	bairro	mobiliado	preco_vendido	similaridade
+2	80.0	3	2	1	Centro	False	480000.0	0.875263
+13	48.0	2	1	0	Centro	False	290000.0	0.863684
+11	75.0	3	2	1	Oficinas	False	330000.0	0.861053
+
+--- ETAPA 2: REUSO (Reuse/Adapt) ---
+INFO: Nenhum ajuste de mobília necessário.
+
+--- ETAPA 3: REVISÃO (Revise) ---
+
+O sistema sugeriu um preço de R$ 300,000.00."
+
+
+		Nao consegui completar minha logica, mas o professor nao gostou do calculo utilizando mobilia, tem como voce arrumar isso?
+
+-----------------------------------------------------------------------------
+
+entao, eu preciso que essa parte de ver precos de imoveis e qual o valor do metro quadrado sugerido paca o meu novo caso, ou seja, o que involve o preco do apartamento, aparecesse na parte de reuso certo, porque eh no reuso que reutilizamos os casos antigos para fazer a previcao de preco do apartamento
+
+gostei mas quero que o preco sugerido antes do ajuste da mobilia aparecesse tambem na etapa de reuso
+exemplo:
+"--- ETAPA 2: REUSO (Reuse/Adapt) ---
+INFO: Aplicado ajuste de +R$ 59,498.85 (Valor da Mobília para 'Centro')
+
+--- ETAPA 3: REVISÃO (Revise) ---
+
+O sistema sugeriu um preço de R$ 454,170.80."
+como quero:
+"--- ETAPA 2: REUSO (Reuse/Adapt) ---
+Valor imovel: 393,671.95
+INFO: Aplicado ajuste de +R$ 59,498.85 (Valor da Mobília para 'Centro')
+
+--- ETAPA 3: REVISÃO (Revise) ---
+
+O sistema sugeriu um preço de R$ 454,170.80."
